@@ -10,8 +10,8 @@ You are helping me cut my **Meta Quest 2** off from Meta's servers while keeping
 sideloading by `adb`/SideQuest, and SteamVR over **ALVR** (which runs on my LAN, not the internet). I accept
 losing the Meta store, the feed, system updates, and any store-bought game whose licence check fails offline.
 
-Use the scripts and lists in this `quest2/` folder. Do not write new ones unless I ask. Work in small steps
-and tell me what you see after each.
+Use the scripts and lists in this `quest2/` folder, and `quest2/documentation/` for the detail of each
+step. Do not write new ones unless I ask. Work in small steps and tell me what you see after each.
 
 ## Rules (do not break these)
 
