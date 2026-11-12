@@ -12,7 +12,7 @@ The store, feed and social tiles failing is the sign it is working, not a fault.
 ## Restore
 
 ```sh
-quest2/restore.sh quest2/debloat.txt
+./restore.sh debloat.txt
 ```
 
 This re-enables every package in the list (commented-out lines too), except those that were already

@@ -4,7 +4,7 @@ Make a **Meta Quest 2** silent towards Meta's servers while keeping it usable: l
 `adb` or SideQuest, and SteamVR over ALVR. Meta's non-essential packages are disabled the reversible way
 (`pm disable-user`, never uninstalled), and the headset is cut off from Meta at the network.
 
-This is not part of the CleanYourTV TV project; it reuses its idea on a different device.
+The idea comes from [CleanYourTV](https://github.com/Gathin23/cleanyourtv), which does the same for Android TVs.
 
 ## What you lose, what you keep
 

@@ -6,8 +6,8 @@ undoes every step. Use the scripts here, not hand-typed `pm` calls.
 ## The scripts
 
 ```sh
-quest2/disable.sh quest2/debloat.txt     # disable the list
-quest2/restore.sh quest2/debloat.txt     # re-enable it (except what was already disabled)
+./disable.sh debloat.txt     # disable the list
+./restore.sh debloat.txt     # re-enable it (except what was already disabled)
 ```
 
 `disable.sh` refuses any package the headset needs to boot, track, pair or be reached (the shell, system

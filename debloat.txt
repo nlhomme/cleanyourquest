@@ -1,6 +1,6 @@
 # Meta Quest 2, Horizon OS on Android 14 (build UP1A.231005.007.A1)
 # One package per line. Disabled for user 0, never uninstalled.
-# Apply: quest2/disable.sh quest2/debloat.txt    Undo: quest2/restore.sh quest2/debloat.txt
+# Apply: ./disable.sh debloat.txt    Undo: ./restore.sh debloat.txt
 # A commented-out line is not applied.
 
 # --- Tier 1: store, feed, social, promotions, telemetry, updater ---

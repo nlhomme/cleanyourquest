@@ -1,0 +1,4 @@
+# Your own headset's dumps (serial, MAC, Wi-Fi name, account) stay local
+backup/
+*.apk
+.DS_Store
