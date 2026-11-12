@@ -1,0 +1,28 @@
+! Meta domains, blocked for the headset only.
+! In AdGuard Home: Settings > Client settings, add the headset as a persistent
+! client named quest2 (by its MAC address), then paste these lines into
+! Filters > Custom filtering rules.
+! To block Meta for the whole network instead, delete every $client=quest2.
+||oculus.com^$client=quest2
+||oculuscdn.com^$client=quest2
+||oculusvr.com^$client=quest2
+||meta.com^$client=quest2
+||metacdn.com^$client=quest2
+||atmeta.com^$client=quest2
+||facebook.com^$client=quest2
+||facebook.net^$client=quest2
+||fbcdn.net^$client=quest2
+||fbsbx.com^$client=quest2
+||fb.com^$client=quest2
+||fb.me^$client=quest2
+||fbpigeon.com^$client=quest2
+||tfbnw.net^$client=quest2
+||facebook-hardware.com^$client=quest2
+||accountkit.com^$client=quest2
+||messenger.com^$client=quest2
+||m.me^$client=quest2
+||instagram.com^$client=quest2
+||cdninstagram.com^$client=quest2
+||whatsapp.com^$client=quest2
+||whatsapp.net^$client=quest2
+||workplace.com^$client=quest2

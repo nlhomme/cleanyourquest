@@ -1,0 +1,62 @@
+# Meta Quest 2, Horizon OS on Android 14 (build UP1A.231005.007.A1)
+# One package per line. Disabled for user 0, never uninstalled.
+# Apply: quest2/disable.sh quest2/debloat.txt    Undo: quest2/restore.sh quest2/debloat.txt
+# A commented-out line is not applied.
+
+# --- Tier 1: store, feed, social, promotions, telemetry, updater ---
+com.oculus.store
+com.oculus.explore
+com.meta.worlds
+com.facebook.horizon
+com.oculus.socialplatform
+com.oculus.presence
+com.oculus.avatareditor
+com.oculus.assistant
+com.oculus.quickpromotionservice
+com.oculus.tv
+com.oculus.panelapp.calendar
+com.oculus.remotedesktop
+com.oculus.helpcenter
+com.oculus.guidebook
+com.oculus.vrprivacycheckup
+com.oculus.accountscenter
+com.meta.AccountsCenter.pwa
+com.oculus.bugreportuploader
+com.oculus.bugreportservice
+com.oculus.statscollector
+com.meta.horizonadidservice
+com.meta.federatedcomputing.oculus
+com.oculus.backuptransportservice
+com.oculus.q4b.mdm
+# Refused by the OS: "Cannot disable a protected package"
+# com.oculus.q4bservice
+# The updater is refused by the OS too ("Cannot disable a protected package"),
+# so system updates are only stopped by the DNS block. An update could
+# re-enable everything above.
+# com.oculus.updater
+com.oculus.nux.ota
+
+# --- After ALVR is proven: Meta's own PC streaming (Link, Air Link) ---
+# com.oculus.xrstreamingclient
+# com.meta.pclinkservice.server
+
+# --- Tier 2: one at a time, test the shell and one app after each ---
+# Phone-app bridge and phone notifications
+# com.oculus.companion.server
+# com.oculus.notification_proxy
+# Casting to a phone or Chromecast goes through Meta
+# com.oculus.magicislandcastingservice
+# Meta's browser
+# com.oculus.browser
+# Parental supervision
+# com.oculus.appsafety
+# com.oculus.websafety
+# Experiments and attestation
+# com.oculus.labservice
+# com.oculus.integrity
+# com.meta.rl.trust.service
+# Platform, identity and licence services: apps may refuse to start without them
+# com.oculus.identitymanagement.service
+# com.oculus.deviceauthserver
+# com.oculus.horizon
+# oculus.platform
