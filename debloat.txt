@@ -31,7 +31,7 @@ com.oculus.q4b.mdm
 # Refused by the OS: "Cannot disable a protected package"
 # com.oculus.q4bservice
 # The updater is refused by the OS too ("Cannot disable a protected package"),
-# so system updates are only stopped by the DNS block. An update could
+# so system updates are only stopped by the network cutoff. An update could
 # re-enable everything above.
 # com.oculus.updater
 com.oculus.nux.ota
