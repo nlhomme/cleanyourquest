@@ -1,4 +1,4 @@
-# quest2
+# cleanyourquest
 
 Make a **Meta Quest 2** silent towards Meta's servers while keeping it usable: local apps, sideloading by
 `adb` or SideQuest, and SteamVR over ALVR. Meta's non-essential packages are disabled the reversible way
